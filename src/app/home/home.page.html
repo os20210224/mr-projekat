@@ -1,20 +1,66 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-tabs #tabs>
+    <ion-tab tab="throw">
+      <div id="throw-page" class="ion-page">
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Throw</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <div class="throw-content">
+            *slika tuznog telefona*
+            <ion-button>Throw</ion-button>
+          </div>
+        </ion-content>
+      </div>
+    </ion-tab>
+    <ion-tab tab="scores">
+      <div id="score-page" class="ion-page">
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Scores</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <div class="score-content">
+            *slika pehara*
+            #1 1.5m
+          </div>
+        </ion-content>
+      </div>
+    </ion-tab>
+    <ion-tab tab="user">
+      <div id="user-page" class="ion-page">
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>User Name Here</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <div class="user-content">
+            Ime
+            Friends
+            Settings
+            Log Out
+          </div>
+        </ion-content>
+      </div>
+    </ion-tab>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="throw">
+        <ion-icon name="rocket-outline"></ion-icon>
+        Throw
+      </ion-tab-button>
+      <ion-tab-button tab="scores">
+        <ion-icon name="podium-outline"></ion-icon>
+        Scores
+      </ion-tab-button>
+      <ion-tab-button tab="user">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        User
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>
