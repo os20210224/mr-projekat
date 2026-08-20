@@ -1,4 +1,13 @@
-<ion-content>
-  <p>slika</p>
-  <ion-button>Throw</ion-button>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Throw</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button expand="block" (click)="testSensors()" >
+    THROW
+  </ion-button>
+
+  <p>{{sensorData | json}}</p>
 </ion-content>
