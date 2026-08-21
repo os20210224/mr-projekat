@@ -20,12 +20,12 @@ sudo apt install openjdk-21-jdk
 
 ### android studio
 
-jos jedan glupi naduvani jetbrains softver
+jos jedan glupi naduvani jetbrains softver  
 ^3.5 prikletih gigabajta
 
 skinuti tar.gz sa oficijalnog sajta i ekstraktovati u /usr/local/ direktorijum
 
-preko njega instalirati android SDK jer downlaod SDK-a sa sajta ne postoji
+preko njega instalirati android SDK jer downlaod SDK-a sa sajta ne postoji  
 (uprkos informaciji koju android studio pruza uz beskorisni link)
 
 ne znam da li je dalje neophodno zadrzati android studio, plasim se da ga obrisem jer je projekat jedva proradio
