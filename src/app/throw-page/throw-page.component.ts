@@ -1,13 +1,11 @@
-import { CommonModule, DecimalPipe  } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import {
   Component,
-  OnDestroy,
 } from '@angular/core';
 import {
   IonButton,
   IonContent,
   IonHeader,
-  IonText,
   IonTitle,
   IonToolbar,
 } from '@ionic/angular/standalone';
@@ -20,11 +18,9 @@ import { Motion } from '@capacitor/motion';
   standalone: true,
   imports: [
     CommonModule,
-    DecimalPipe,
     IonButton,
     IonContent,
     IonHeader,
-    IonText,
     IonTitle,
     IonToolbar,
   ],

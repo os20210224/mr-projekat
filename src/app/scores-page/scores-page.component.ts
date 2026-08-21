@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
-import {IonContent} from "@ionic/angular/standalone";
+import {IonContent, IonHeader, IonTitle, IonToolbar} from "@ionic/angular/standalone";
 
 @Component({
   selector: 'app-scores-page',
   templateUrl: './scores-page.component.html',
   styleUrls: ['./scores-page.component.scss'],
   imports: [
-    IonContent
+    IonContent,
+    IonHeader,
+    IonTitle,
+    IonToolbar
   ]
 })
 export class ScoresPageComponent {
